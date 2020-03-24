@@ -3,8 +3,8 @@ Implementation and usage of marginalized stacked denoising autoencoders (mSDA), 
 
 Details:
 
-* Original MATLAB code is provided in the paper.
-* Both MATLAB and Python implementations were provided at http://www.cs.cornell.edu/~kilian/code/code.html.
+* Original MATLAB code is provided in the paper at http://www.cs.cornell.edu/~kilian/papers/msdadomain.pdf
+* Both MATLAB and Python implementations were provided at http://www.cs.cornell.edu/~kilian/code/code.html
 * This implementation of mSDA is based on both the sample code the authors provided as well as the equations in the paper.
 * This Python implementation ends up being slightly more optimized than the one they provided, and it contains hopefully more explanatory variable names and comments.  
 
@@ -31,10 +31,10 @@ To run this program, run the command: python text_analysis.py. mSDA tends to run
 This simple problem, however, is mainly a proof of concept--further work could explore more heavy-duty applications of mSDA (in particular, ones involving domain adaptation, which is what mSDA is intended for).  
 
 ### Python version
-Tested and adjusted for Python 3.6 (originally written for Python 2.x)
+It was tested and adjusted for Python 3.6 (code was originally written for Python 2.x).
 
 ## Authors
-This not the original repository! Original repository can be found here [markheimann](https://github.com/markheimann/mSDA)
+This is not the original repository! Original repository can be found here [markheimann](https://github.com/markheimann/mSDA)
 
 I just adjusted the scripts for Python 3.6 and for manuall data download since I wasn't able to import them directly.
 
