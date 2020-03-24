@@ -1,10 +1,10 @@
 #Implements marginalized denoising with linear regression estimator
 import numpy as np
-from sklearn.metrics import mean_squared_error
+#from sklearn.metrics import mean_squared_error
 from sklearn.base import BaseEstimator
-from sklearn import linear_model, cross_validation, grid_search
+from sklearn import linear_model #, cross_validation, grid_search
 
-import sys, random
+#import sys, random
 import msda
 
 class MD(BaseEstimator):
